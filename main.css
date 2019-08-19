@@ -1,0 +1,47 @@
+* {
+    /* border: 1px dashed black; */
+}
+
+.pageHeader {
+    justify-content: center;
+    display: flex;
+    font-size: 4em;
+    font-family: cursive;
+}
+
+h1 {
+    justify-content: center;
+    font: bolder;
+}
+
+h3 {
+    font: bolder;
+}
+.list {
+    font: italic;
+    justify-content: row;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+body {
+    color: brown;
+    background-color: burlywood;
+}
+
+.shop {
+    font-family: cursive;
+    border: 1px outset; 
+    width: 30%;
+    padding: 7px;
+    color: rgb(168, 90, 17)
+}
+
+.shop:hover {
+    color : beige;
+}
+
+a:link {
+    color:darkolivegreen;
+}
